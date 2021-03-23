@@ -1,0 +1,105 @@
+body{
+    background:#333853;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    /* opacity:0.7; */
+    gap:4rem;
+}
+input{
+    border:0;
+    background: #3C4262;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    font-size: 40pt;
+    color: white;
+    text-align: center;
+}
+img{
+    align-items: center;
+    
+}
+section{
+    display: flex;
+}
+button{
+    border:0;
+    background: #219653;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+}
+.b1{
+
+}
+.b2{
+
+}
+.b3{
+    background-color: #3C4262;
+}
+.play{
+    text-decoration: none;
+    color: white;
+    background-color: #3C4262;
+    opacity: 0.7;
+    width: 55px;
+    height: 50px;
+    padding:1rem 0.2rem;
+    text-align: center;
+    box-shadow:0 2px 6px 0 rgba(34, 32, 32, 0.6);
+    border-radius: 0.4rem;
+}
+}
+h1{
+    font-size: 32pt;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0;
+    width: min(90vw, 1024px);
+}
+a{
+    text-decoration: none;
+    color: white;
+    background-color: #3C4262;
+    opacity: 0.7;
+    width: 100px;
+    height: auto;
+    max-height: 10px;
+    padding:1rem 0.2rem;
+    text-align: center;
+    box-shadow:0 2px 6px 0 rgba(34, 32, 32, 0.6);
+    border-radius: 0.4rem;
+}
+div{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+legend{
+    font-size: 32pt;
+    color: #219653;
+    grid-column: 2;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+.cronometro{
+    grid-column: 1;
+}
+/* #3C4262 */
